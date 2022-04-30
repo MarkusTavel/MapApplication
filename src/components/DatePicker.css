@@ -1,0 +1,20 @@
+input {
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+    background: transparent;
+    padding: 0.4375rem 0.75rem;
+    border: 0;
+    outline: 1px solid #eeeef0;
+    font-size: 0.875rem;
+    height: 30px;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    width: 250px;
+    padding-left: 70px;
+  }
+  
+  .datepicker__title {
+    position: absolute;
+    top: 27px;
+    margin-left: 20px;
+    font-weight: 400;
+  }

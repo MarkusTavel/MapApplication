@@ -1,12 +1,40 @@
 .App {
-    
     height: 100%;
     width: 100%;
-    
+    background-color: rgb(169, 211, 228);
+  }
+
+  .headline {
+    text-align: center;
   }
 
   .map {
-    height: 60%;
-    width: 60%;
-    border: 3px solid #000;
+    height: 600px;
+    width: 100%;
+    display: block;
+    left: 0;
+    right: 0;
+ 
+    margin: auto;
+    border: 1px solid #000;
   }
+
+  .container {
+    display: inline;
+    font-weight: bold;
+  }
+
+  .display {
+    display: flex;
+  }
+
+  .info {
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .result {
+    font-weight: bold;
+    padding: 2px 16px;
+  }
+  
